@@ -17,4 +17,4 @@ Resources:
       CidrBlock: 10.0.0.1/24
       Tags:
         - Key: Name
-        - Value: Git sync
+        - Value: Gitsync
