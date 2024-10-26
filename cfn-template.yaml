@@ -1,15 +1,16 @@
 AWSTemplateFormatVersion: 2010-09-09
 Description: A sample CloudFormation template with YAML comments.
-# Resources section
+
 Resources:
-  GitSyncVPC: 
+  GitSyncVPC:
     Type: AWS::EC2::VPC
-    Properties: 
+    Properties:
       CidrBlock: 10.0.0.1/16
       EnableDnsSupport: true
       Tags:
         - Key: Name
-        - Value: gitsyncvpc
+          Value: gitsyncvpc
+
   GitSyncSubnet:
     Type: AWS::EC2::Subnet
     Properties:
@@ -17,4 +18,4 @@ Resources:
       CidrBlock: 10.0.0.1/24
       Tags:
         - Key: Name
-        - Value: Gitsync
+          Value: Gitsync
