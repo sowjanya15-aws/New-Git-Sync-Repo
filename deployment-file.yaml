@@ -1,4 +1,5 @@
-template-file-path: ./cfn-template.yaml
+template-file-path: cfn-template.yaml
+parameters: {}
 tags:
-   Name: 'gitsync'
-   Project: 'Demo'
+  Project: Demo
+  Name: gitsync
